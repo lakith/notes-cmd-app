@@ -29,7 +29,7 @@ const addNotes = (title,body) => {
 
 const listNotes = () => {
     const notes = loadNotes();
-    console.log(chalk.blue("\n\n\t\tPrinting your notes-2\n"))
+    console.log(chalk.blue("\n\n\t\tPrinting your notes\n"))
     notes.forEach((note)=>{
         console.log(note);
     })
